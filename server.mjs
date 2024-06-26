@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 
 const app = express();
 const port = 3000;
-const apiKey = 'd40cf89b39cce6'; // Замініть на свій API-ключ
+const apiKey = ''; // Замініть на свій API-ключ
 
 function getClientIp(req) {
     return req.headers['cf-connecting-ip'] ||
